@@ -10,8 +10,8 @@ const Nutrition = (props) => {
       </p>
       <div className="nutrition-table">
         {props.stats.map((stat, index) => (
-          <div>
-            <div className="stat" key={stat.id}>
+          <div key={stat.id}>
+            <div className="stat">
               <p className="name">{stat.name}</p>
               <p className="amount">{stat.amount}</p>
             </div>
