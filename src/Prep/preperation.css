@@ -1,0 +1,25 @@
+.preperation-section {
+  background: hsl(323, 100%, 98%);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 1.5em 0;
+}
+
+.preperation-section li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 0.75em;
+}
+
+li p {
+  margin: 0.5em 1em;
+}
+
+@media (max-width: 500px) {
+  .preperation-section {
+    margin: 1.5rem 2rem;
+  }
+  li p {
+    margin: 0.5em 0;
+    padding-left: 1em;
+  }
+}

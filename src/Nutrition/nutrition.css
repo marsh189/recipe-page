@@ -1,0 +1,32 @@
+.stat {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.name {
+  padding-left: 2em;
+}
+
+.amount {
+  text-align: end;
+  padding-right: 16em;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.nutrition-table hr {
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .nutrition-section {
+    margin: 1.5rem 2rem;
+  }
+  .desc {
+    padding: 0;
+  }
+
+  .amount {
+    padding-right: 5em;
+  }
+}
